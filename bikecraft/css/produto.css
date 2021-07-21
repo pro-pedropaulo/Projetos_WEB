@@ -1,0 +1,149 @@
+.interna-produto {
+    background: url("../img/bg-produtos.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.produto-item {
+    padding-top: 60px;
+}
+
+.produto-icone {
+    background: black;
+    padding: 68px 0;
+    text-align: center;
+}
+
+.produto-item h2 { 
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: bold;
+    position: relative;
+    top: -180px;
+    text-align: center;
+    color: white;
+    margin-bottom: -55px;
+}
+
+.produto-item h2::after, .produto-item h2::before {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: white;
+    margin: 6px auto 8px auto;
+
+}
+
+.produto-info {
+    background-color: black;
+}
+
+.produto-info p {
+    color: white;
+    font-size: 18px;
+    line-height: 25px;
+    padding: 30px 40px;
+    height: 180px;
+}
+
+.produto-info ul li {
+    background: #CFCF8E;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: bold;
+    float: left;
+    width: 229px;
+    height: 49px;
+    text-align: center;
+    padding-top: 16px;
+}
+.produto-info ul li:nth-child(even){
+    margin-left: 2px;
+}
+
+.produto-info ul li:nth-child(1), .produto-info ul li:nth-child(2) {
+     margin-bottom: 2px;
+}
+
+/* Orçamentos */ 
+.form {
+    padding-right: 60px;
+}
+.form label {
+    display: block;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 4px;
+}
+
+.orcamento {
+    background: black;
+    margin-top: 60px;
+    width: 100%;
+}
+
+.orcamento h2 {
+    color:#CFCF8E;
+    padding-top: 40px;
+}
+
+.orcamento h2::after {
+    background: #CFCF8E;
+}
+
+.form input, .form textarea {
+    display: block;
+    background: none;
+    border: 4px solid #CFCF8E;
+    color: white;
+    padding: 7px 10px;
+    width: 100%;
+    outline: none;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+}
+
+.form textarea {
+    height: 120px;
+}
+
+.form .btn {
+    background: none;
+    padding: 10px 40px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.dados-orcamento { 
+    color: white;
+}
+
+.dados-orcamento h3 {
+    font-size: 18px;
+    line-height: 25px;
+    color: #CFCF8E;
+    text-transform: uppercase;
+    font-weight:  bold;
+}
+
+.dados-orcamento span {
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: block;
+    line-height: 30px;
+}
+
+.email-produto-span-2 {
+    margin-bottom: 40px;
+}
+
+.dados-orcamento ul li { 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:  14px;
+    padding: 10px;
+}
