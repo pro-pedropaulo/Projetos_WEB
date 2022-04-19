@@ -1,0 +1,3 @@
+# PROJETO COPIA SPOTIFY 
+
+Copia do spotify construindo com HTML E CSS, usado JAVASCRIPT APENAS NO MENU MOBILE
