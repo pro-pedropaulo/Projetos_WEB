@@ -6,11 +6,17 @@ const avisoClique = document.querySelector(".aviso-clique")
 const avisoClicou = document.querySelector(".aviso-clicou")
 
 function acenderluz() {
-    lampada.setAttribute('src', 'img/ligada.jpg')
+        const pegaAtributo = lampada.getAttribute('src')
+        if (pegaAtributo != 'img/quebrada.jpg') {
+        lampada.setAttribute('src', 'img/ligada.jpg')
+    }
 }
 
 function apagaluz() {
+    const pegaAtributo = lampada.getAttribute('src')
+    if (pegaAtributo != 'img/quebrada.jpg') {
     lampada.setAttribute("src", 'img/desligada.jpg')
+    }
 }
 function quebralampada() {
     lampada.setAttribute("src", 'img/quebrada.jpg')
