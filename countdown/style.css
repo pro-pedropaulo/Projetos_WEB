@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 1.6rem;
+}
+ul {
+    list-style: none;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+
+.div-title,
+.div-countdown {
+    max-width: 960px;
+    display: flex;
+    justify-content: center;
+    margin: 5rem auto;
+}
+.title {
+    font-size: 5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: italic;
+    text-shadow: red 0 0.1rem;
+    text-align: center;
+}
+
+.div-data { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.qualData, 
+.nomeData { 
+    font-size: 2.2rem;
+    text-transform: uppercase;
+}
+.interrogacao {
+    animation: animate 1.5s linear infinite;
+    color: red;
+}
+
+
+@keyframes animate{
+    0%{
+      opacity: 0;
+    }
+    50%{
+      opacity: 0.7;
+    }
+    100%{
+      opacity: 0;
+    }
+  }
+
+
+.input-date,
+.input-text {
+    margin-top: 1rem;
+    width: 20rem;
+    height: 5rem;
+    font-size: 1.8rem;
+    padding: 1rem;
+    border: 3px gray solid;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    width: 25rem;
+    height: 4rem;
+    font-size: 1.8rem;
+    padding: 1rem;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.div-countdown {
+    display: none;
+}
+
+.mostrarNomeData {
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.div-tempo {
+    max-width: 980px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+.dias, .minutos, .horas, .segundos {
+    text-align: center;
+    margin-top: -2rem;
+}
+.p-element {
+    font-size: 6rem;
+    font-weight: bold;
+}
+.span-element {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.div-novaContagem {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.btn-novaData {
+    width: 20rem;
+    height: 3rem;
+    font-size: 1.8rem;
+    padding: 1rem;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.asteris,
+.asteris-D {
+    margin-left: 2rem;
+    font-size: 2.2rem;
+    color: red;
+    display: none;
+}
+.erroData {
+    margin-left: 2rem;
+    font-size: 1.4rem;
+    color: red;
+    display: none;
+}
+
+@media (max-width: 620px) {
+    .div-tempo {
+        gap: 2rem;
+    }
+}
+@media (max-width: 440px) {
+    .title {
+        font-size: 3rem;
+    }
+    .mostrarNomeData {
+        font-size: 3rem;
+    }
+    .span-element {
+        font-size: 1.8rem !important;
+    }
+    .p-element {
+        font-size: 4rem !important;
+    }
+}
+@media (max-width: 300px) {
+    .div-tempo {
+        flex-direction: column;
+    }
+}

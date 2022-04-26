@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 1.6rem;
+}
+ul {
+    list-style: none;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+:root {
+    --gold--: #FFD700;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+
+ 
+
+.container {
+    width: 400px;
+    margin: 5rem auto;
+    height: 70vh;
+    background-color: #FFD700;
+}
+.titulo {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2rem;
+    padding-top: 2rem;
+}
+.div-nome,
+.div-altura,
+.div-peso {
+    margin: 3rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.name,
+.altura,
+.peso {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.name-input,
+.altura-input,
+.peso-input {
+    font-size: 1.6rem;
+    height: 3rem;
+    padding: 1rem;
+}
+.calcular {
+    text-align: center;
+    color: var(--gold--);
+    background-color: black;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 85%;
+    margin: auto;
+}
+.resultado {
+    background-color: black;
+    width: 85%;
+    height: 12rem;
+    margin: 3rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-resultado {
+    color: var(--gold--);
+    font-size: 1.6rem;
+    text-align: center;
+    display: flex;
+    
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="div-title">
+         <h1 class="title">the countdown</h1>
+    </div>
+    <div class="div-data">
+        <p class="qualData">quando será a data <span class="interrogacao">?</span><span class="asteris-D">*</span>
+        <span class="erroData">escolha uma data futura</span></p>
+        <input class="input-date" type="date">
+        <p class="nomeData">qual é a data <span class="interrogacao">?</span><span class="asteris">*</span></p>
+        <input class="input-text" type="text">
+        <button class="btn">INICIAR CONTAGEM</button>
+    </div>
+
+    <div class="div-countdown">
+        <div class="mostrarNomeData"></div>
+        <div class="div-tempo">
+            <div class="dias">
+                <p class="p-element">0</p>
+                <span class="span-element">dias</span>
+            </div>
+            <div class="horas">
+                <p class="p-element">0</p>
+                <span class="span-element">horas</span>
+            </div>
+            <div class="minutos">
+                <p class="p-element">0</p>
+                <span class="span-element">minutos</span>
+            </div>
+            <div class="segundos">
+                <p class="p-element">0</p>
+                <span class="span-element">segundos</span>
+            </div>
+        </div>
+        <div class="div-novaContagem">
+            <button class="btn-novaData">NOVA DATA</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
