@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <script src="https://kit.fontawesome.com/f7a421ac83.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <h1 class="title">Calculadora feita by: pro-pedropaulo</h1>
+    <div class="container-calculadora">
+        <div class="calculadora">
+            <p class="tela" id="tela-id"></p>
+
+            <table>
+                <tr>
+                    <td><button class="btn ac"> AC </button></td>
+                    <td><button class="btn apaga"> <i class="fa-solid fa-delete-left"></i> </button></td>
+                    <td><button class="btn especial" onclick="insere('/')"> <i class="fa-solid fa-divide"></i> </button></td>
+                </tr>
+
+                <tr>
+                    <td><button class="btn" onclick="insere('7')" >7</button></td>
+                    <td><button class="btn" onclick="insere('8')">8</button></td>
+                    <td><button class="btn" onclick="insere('9')">9</button></td>
+                    <td><button class="btn especial" onclick="insere('*')">X</button></td>
+                </tr>
+
+                <tr>
+                    <td><button class="btn" onclick="insere('4')">4</button></td>
+                    <td><button class="btn" onclick="insere('5')">5</button></td>
+                    <td><button class="btn" onclick="insere('6')">6</button></td>
+                    <td><button class="btn especial" onclick="insere('-')">-</button></td>
+                </tr>
+
+                <tr>
+                    <td><button class="btn" onclick="insere('1')">1</button></td>
+                    <td><button class="btn" onclick="insere('2')">2</button></td>
+                    <td><button class="btn"onclick="insere('3')">3</button></td>
+                    <td><button class="btn especial" onclick="insere('+')">+</button></td>
+                </tr>
+
+                <tr>
+                    <td><button class="btn" onclick="insere('0')">0</button></td>
+                    <td><button class="btn" onclick="insere('.')">.</button></td>
+                    <td><button class="btn igual">=</button></td>
+                </tr>
+            </table>
+ 
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

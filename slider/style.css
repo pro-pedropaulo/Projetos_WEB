@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.6rem;
+}
+ul {
+    list-style: none;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+.container-titulo{
+    width: 100vw;
+    background-color: rgb(162, 238, 230);
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+
+}
+
+.titulo h1 {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+.container-slider {
+    margin: 2rem auto;
+    position: relative;
+    background-color: red;
+    max-width: 70rem;
+    height: 400px;
+}
+.slider1,
+.slider2,
+.slider3 {
+    display: none;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.ativo {
+    display: block;
+}
+.seta-left {
+    font-size: 8rem;
+    position: absolute;
+    top: 142px;
+    right: 0px;
+    color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+.seta-right {
+    font-size: 8rem;
+    position: absolute;
+    top: 142px;
+    left: 0px;
+    color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
